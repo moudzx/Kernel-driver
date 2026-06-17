@@ -1,8 +1,9 @@
-# kernel-driver
+# Kernel-driver
 <img width="948" height="593" alt="dd8c908ed08c431031fde66aaece33ac" src="https://github.com/user-attachments/assets/9ff6c4d3-62ce-47b8-961d-b26fc2119b04" />
 
-## reference
-https://tldp.org/LDP/lkmpg/2.6/html/index.html
+## References
+https://tldp.org/LDP/lkmpg/2.6/html/index.html <br>
+https://youtu.be/2FlFl1h2n0E?si=RWe1SKxzHmzwtVVQ
 ##
 What exactly is a kernel module? Modules are pieces of code that can be loaded and unloaded into the kernel upon demand. They extend the functionality of the kernel without the need to reboot the system. For example, one type of module is the device driver, which allows the kernel to access hardware connected to the system. Without modules, we would have to build monolithic kernels and add new functionality directly into the kernel image. Besides having larger kernels, this has the disadvantage of requiring us to rebuild and reboot the kernel every time we want new functionality.
 <br>
@@ -34,4 +35,4 @@ Load: <code>sudo insmod (module).ko</code><br>
 Unload: <code>sudo rmmod (module)</code><br>
 Check the log: <code>dmesg</code><br>
 ##
-<br> Congratulations, you are now the author of Linux kernel code!
+<br> Congratulations!
